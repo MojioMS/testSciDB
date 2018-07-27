@@ -15,7 +15,7 @@ http://localhost:8080/new_session
 
 sessionId should be: jy9757acx1eve7nmoigsz8fxqqqvjj5i, if not: adjust further &id= params
 
-http://localhost:8080/execute_query?query=create array base <r:uint8 null, g:uint8 null, b:uint8, a:uint8> [t=0:*:0:1; x=0:2999:0:5000; y=0:2999:0:5000]&id=jy9757acx1eve7nmoigsz8fxqqqvjj5i
+http://localhost:8080/execute_query?query=create array base <r:uint8 null, g:uint8 null, b:uint8 null, a:uint8 null> [t=0:*:0:1; x=0:2999:0:5000; y=0:2999:0:5000]&id=jy9757acx1eve7nmoigsz8fxqqqvjj5i
 
 http://localhost:8080/execute_query?query=load(base,'testfile.out', -2, '(uint8 null, uint8 null, uint8 null, uint8 null)')&id=jy9757acx1eve7nmoigsz8fxqqqvjj5i
 
@@ -30,7 +30,7 @@ http://localhost:8080/new_session
 
 sessionId should be: iu531gvyx99bwdekbutaj889ee4dx9wf, if not: adjust further &id= params
 
-http://localhost:8080/execute_query?query=create array base2 <r:uint8 null, g:uint8 null, b:uint8, a:uint8> [t=0:*:0:1; x=0:2999:0:400; y=0:2999:0:400]&id=iu531gvyx99bwdekbutaj889ee4dx9wf
+http://localhost:8080/execute_query?query=create array base2 <r:uint8 null, g:uint8 null, b:uint8 null, a:uint8 null> [t=0:*:0:1; x=0:2999:0:400; y=0:2999:0:400]&id=iu531gvyx99bwdekbutaj889ee4dx9wf
 
 http://localhost:8080/execute_query?query=load(base2,'testfile.out', -2, '(uint8 null, uint8 null, uint8 null, uint8 null)')&id=iu531gvyx99bwdekbutaj889ee4dx9wf
 
